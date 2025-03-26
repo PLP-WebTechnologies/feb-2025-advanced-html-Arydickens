@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEEK 2 ASSIGNMENT</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Assignment Page</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Ordered List Section -->
+        <section>
+            <h2>Ordered List</h2>
+            <ol type="I">
+                <li>Item One</li>
+                <li>Item Two</li>
+                <li>Item Three</li>
+            </ol>
+        </section>
+
+        <!-- Image Section -->
+        <section>
+            <h2>Image from Pexels</h2>
+            <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="Image from Pexels"
+                width="400">
+        </section>
+
+        <!-- Contact Table Section -->
+        <section>
+            <h2>Contact List</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Mobile</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Mugume</td>
+                        <td>Mbarara, Uganda</td>
+                        <td>+256772456789</td>
+                        <td>john@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Achom</td>
+                        <td>Kampala,Uganda</td>
+                        <td>+256773654323</td>
+                        <td>jane@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mike Mugabe</td>
+                        <td>Ibanda, Uganda</td>
+                        <td>+256772334485</td>
+                        <td>mike@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Alice Aine</td>
+                        <td>Bushenyi,Uganda</td>
+                        <td>+256705666707</td>
+                        <td>alice@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Robert Mujuni</td>
+                        <td>Kasese, Uganda</td>
+                        <td>+256776777888</td>
+                        <td>robert@gmail.com</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Registration Form Section -->
+        <section>
+            <h2>Registration Form</h2>
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <!-- Name Field -->
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+                    <!-- Email Field -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                    <!-- Password Field -->
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter a strong password" required
+                        minlength="6"><br><br>
+
+                    <!-- Date of Birth -->
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Gender and Preferences</legend>
+                    <!-- Dropdown for Gender -->
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select your gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select><br><br>
+
+                    <!-- Radio Buttons for Subscription Type -->
+                    <label>Subscription Type:</label><br>
+                    <input type="radio" id="free" name="subscription" value="free" required>
+                    <label for="free">Free</label><br>
+
+                    <input type="radio" id="premium" name="subscription" value="premium">
+                    <label for="premium">Premium</label><br><br>
+
+                    <!-- Checkboxes for Interests -->
+                    <label>Interests:</label><br>
+                    <input type="checkbox" id="tech" name="interests" value="technology">
+                    <label for="tech">Technology</label><br>
+
+                    <input type="checkbox" id="sports" name="interests" value="sports">
+                    <label for="sports">Sports</label><br>
+
+                    <input type="checkbox" id="music" name="interests" value="music">
+                    <label for="music">Music</label><br>
+
+                    <input type="checkbox" id="travel" name="interests" value="travel">
+                    <label for="travel">Travel</label><br><br>
+
+                    <!-- Submit Button -->
+                    <input type="submit" value="Register">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 PLP Assignment. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
